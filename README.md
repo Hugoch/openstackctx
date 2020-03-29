@@ -4,6 +4,8 @@
 in your shell.
 It keeps your environment variables in sync with the activated Openstack project.
 
+![Demo](img/openstackctx-demo.gif)
+
 ## Usage
 ```
 (my-openstack-project-2) $ env | grep OS_PROJECT_ID
