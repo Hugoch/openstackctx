@@ -22,6 +22,18 @@ OS_PROJECT_ID=my-project-2-id
 ... 
 ```
 
+## Activate/deactivate
+Deactivate
+```
+(my-openstack-project-2) $ openstackoff
+$
+```
+Activate
+```
+$ openstackon
+(my-openstack-project-2) $
+```
+
 ## Installation
 
 Download latest version from [Releases](https://github.com/Hugoch/openstackctx/releases) according to 
