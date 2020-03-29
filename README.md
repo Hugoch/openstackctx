@@ -1,4 +1,4 @@
-# Openstack project switcher
+# openstackctx: Openstack project switcher
 
 `openstackctx` helps you to switch between different Openstack projects
 in your shell.
