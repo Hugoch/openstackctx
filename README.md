@@ -21,12 +21,16 @@ OS_PROJECT_ID=my-project-2-id
 ```
 
 ## Installation
+
+Download latest version from [Releases](https://github.com/Hugoch/openstackctx/releases) according to 
+your architecture.
+
 ```
-$ curl ...
-$ tar xvf xxx
-$ mv xxx/openstackctxcli /usr/local/bin
+$ tar xvf openstackctx-v0.1-darwin.tar.gz
+$ cd openstackctx-v0.1-darwin
+$ mv openstackctxcli /usr/local/bin
 $ chmod +x /usr/local/bin/openstackctxcli
-$ mv xxx/openstack-ps1.sh /usr/local/bin
+$ mv openstack-ps1.sh /usr/local/bin
 $ chmod +x /usr/local/bin/openstack-ps1.sh
 ```
 then add to your `.zshrc` or `.bashrc`
