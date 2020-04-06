@@ -93,6 +93,7 @@ func ActivateContext(openstackConfig *OpenstackContextConfig, context OpenstackC
 	_ = os.Setenv("OS_USERNAME", context.OsUsername)
 	_ = os.Setenv("OS_PASSWORD", context.OsPassword)
 	_ = os.Setenv("OS_REGION_NAME", context.OsRegionName)
+	_ = os.Setenv("OS_IDENTITY_API_VERSION", "3")
 	path := getConfigPath()
 	openstackConfig.CurrentContext = context.Name
 	data, _ := yaml.Marshal(openstackConfig)
